@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.toDoForm {
+  width: 500px;
+  margin: 25px auto;
+}
+.toDoForm > input {
+  margin-top: 15px;
+}
+
+.toDoCard {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 500px;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.toDoCardCheckboxRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dontStrike {
+  text-decoration: none !important;
+}
